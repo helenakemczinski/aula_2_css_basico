@@ -9,7 +9,7 @@
         body {
         margin: 0;
         color:bisque;
-         background-color:saddlebrown;
+         background-color:rgb(134, 70, 24);
         } 
         .container {
             width: 900px;
@@ -22,6 +22,74 @@
             border-radius: 12px;
             padding: 14px;
             margin-bottom: 12px;
+        }
+
+        h1, h2 {
+            color: rgb(211, 106, 41);
+            margin: 0 0 8px;
+        }
+
+        .subtitulo{
+            margin: 0;
+            color:#d4cab8
+        }
+        p{
+            color:blanchedalmond
+        }
+
+        #apresentacao {
+            border-left: 8px solid rgb(211, 106, 41) ;
+        }
+
+        .nav{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+            flex-wrap: nowrap;
+        }
+
+        .nav-link{
+            display: inline-block;
+            text-decoration: none;
+            color:rgb(192, 153, 128);
+            background: rgb(114, 61, 28);
+            padding: 8px 10px;
+            border-radius: 10px;
+            font-weight: 700;
+        }
+
+        .nav-link:hover{
+            background: rgb(180, 99, 55)
+        }
+
+        .gallery {
+            width: 920px;
+            display: flex;
+            gap: 5px;
+            flex-wrap: nowrap;
+        }
+        
+        .bat-img{
+            width: 280px;
+            height: 350px;
+            border: 2px solid rgb(77, 42, 14);
+            border-radius: 10px;
+        }
+
+        footer p {
+            color:rgb(192, 153, 128);
+            margin: 6px 0 0;
+        }
+
+        .link {
+            color: rgb(180, 99, 55);
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
         }
         </style>
     </head>
@@ -60,16 +128,16 @@
                 <section class="box" id="galeria">
                       <h2>Galeria</h2>
                         <div class="gallery" id="galeria-imagens">
-                        <img class="bat-img" src="batman_comics.jpg" alt="Batman refletindo" width="350" height="420">
-                        <img class="bat-img" src="mulher_gato_bt.webp" alt="Batman e Robin" width="350" height="420">
-                        <img class="bat-img" src="robin_bat.webp" alt="Batman e Mulher Gato" width="350" height="420">
+                        <img class="bat-img" src="batman_comics.jpg" alt="Batman refletindo">
+                        <img class="bat-img" src="mulher_gato_bt.webp" alt="Batman e Robin">
+                        <img class="bat-img" src="robin_bat.webp" alt="Batman e Mulher Gato">
                         </div>
                 </section>
             </main>
 
             <footer class="box" id="rodape">
                 <p>
-                    <a class="nav-link" href="#topo">Voltar ao Topo</a>
+                    <a class="link" href="#topo">Voltar ao Topo</a>
                 </p>
                 <p>
                     Exemplo de Website para treino de HTML e CSS.
